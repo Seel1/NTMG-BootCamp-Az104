@@ -92,8 +92,7 @@ This project uses Azure resources such as **Virtual Networks**, **Resource Group
 We welcome contributions! Whether it’s adding new modules, improving CI/CD processes, or sharing best practices, please feel free to submit pull requests or suggestions. This is a collaborative environment, and we’re excited to learn from each other.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 
 
