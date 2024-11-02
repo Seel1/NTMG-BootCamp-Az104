@@ -1,6 +1,11 @@
+
 # Bootcamp AZ-104: Infrastructure as Code (IaC) Project
 
 Welcome to the Bootcamp AZ-104 project! This repository contains configurations and code for deploying infrastructure on Azure using Terraform and other IaC tools, along with CI/CD practices using Azure DevOps and GitHub.
+
+## Project Status
+**Status**: In Development 🚧  
+This project is actively being developed as part of the Bootcamp AZ-104. Contributions and feedback are welcome!
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -37,45 +42,36 @@ This project is designed as part of the Bootcamp AZ-104 to teach the essentials 
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/your-org/bootcamp-az104-iac.git
+   ```
+
+---
 
 ## Infrastructure Overview
 
 This project uses Azure resources such as **Virtual Networks**, **Resource Groups**, **Storage Accounts**, and **Virtual Machines**, deployed consistently using **Terraform** and managed through **CI/CD pipelines**. The project is organized into multiple phases and epics:
 
-### 1. Infrastructure Setup and Cost Management
-- **Configure resource groups and tagging policies**: Set up policies to ensure consistent tagging for cost tracking and resource organization.
-- **Set budget alerts**: Monitor Azure subscription expenses and configure alerts to prevent overages.
-
-### 2. GitHub Repository Management
-- **Create and manage GitHub repositories**: Establish a dedicated GitHub repository to store code for the project.
-- **Set up branch protection, repository secrets, and webhooks**: Ensure code quality and security with branch protection, manage sensitive data with secrets, and automate actions with webhooks.
-
-### 3. CI/CD Pipeline Configuration
-- **Configure multi-stage pipelines**: Use Azure DevOps and GitHub Actions to automate infrastructure deployment.
-- **Automate Terraform deployments**: Ensure consistency by deploying IaC configurations through automated pipelines.
-
-### 4. Terraform Setup and Configuration
-- **Install and configure Terraform**: Set up Terraform for both local development and CI/CD environments.
-- **Define Azure provider and initialize configurations**: Configure Azure provider settings and create the initial Terraform configuration files.
-
-### 5. IaC and Resource Management
-- **Define modular configurations**: Structure configurations for networks, security, and compute resources using Terraform modules.
-- **Deploy infrastructure**: Use Terraform to manage infrastructure deployments for various environments (e.g., Development and Production).
-
-### 6. Monitoring and Operations
-- **Use Azure Monitor and Log Analytics**: Monitor the health and performance of resources with Azure's monitoring tools.
-- **Set up alerts and additional tools (optional)**: Use alerts and integrate Prometheus or Datadog as needed for comprehensive monitoring.
+### Key Phases
+1. **Infrastructure Setup and Cost Management**: Configure resource groups, tagging policies, and budget alerts.
+2. **GitHub Repository Management**: Create repositories, set up branch protection, repository secrets, and webhooks.
+3. **CI/CD Pipeline Configuration**: Configure multi-stage pipelines in Azure DevOps and GitHub Actions.
+4. **Terraform Setup and Configuration**: Install and configure Terraform for local and CI/CD environments.
+5. **IaC and Resource Management**: Structure configurations and deploy infrastructure for different environments.
+6. **Monitoring and Operations**: Use Azure Monitor, Log Analytics, and optional tools like Prometheus.
 
 ---
 
 ## Usage
 
 ### Deployment Steps
-1. **Initialize the Repository**: Ensure the repository is up-to-date and that all necessary dependencies are installed.
-   
-2. **Deploy Infrastructure**: Use Terraform scripts to deploy Azure resources. Pipelines in Dev, Test, and Prod environments automate these deployments.
+1. **Initialize the Repository**: Ensure the repository is up-to-date and all necessary dependencies are installed.
+2. **Deploy Infrastructure**: Run Terraform scripts to deploy resources. CI/CD pipelines automate deployments in Dev, Test, and Prod environments.
+3. **Monitor and Manage Costs**: Use tagging and policies for cost tracking. Set up alerts to control spending.
 
-3. **Monitor and Manage Costs**: Implement tagging and Azure policies for cost management. Set up alerts to control spending, particularly for CI/CD processes.
+### Examples
+- **Pipeline YAML Configurations**: *(Placeholder for example configurations)*
+- **Screenshot of Terraform Plan Output**: *(Placeholder for screenshots)*
+
+---
 
 ## Project Structure
 
@@ -87,12 +83,23 @@ This project uses Azure resources such as **Virtual Networks**, **Resource Group
 ├── modules/                  # Modularized Terraform configurations
 ├── .github/workflows/        # GitHub Actions workflows for CI/CD
 └── azure-pipelines.yml       # Azure DevOps pipeline for CI/CD
+```
+
+---
 
 ## Contributing
+
 We welcome contributions! Whether it’s adding new modules, improving CI/CD processes, or sharing best practices, please feel free to submit pull requests or suggestions. This is a collaborative environment, and we’re excited to learn from each other.
+
+### Contribution Guidelines
+1. Fork the repository and create a branch for your feature or bug fix.
+2. Submit a pull request with a clear description of your changes.
+
+### Code of Conduct
+Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) to maintain a welcoming and inclusive environment.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-
-
+## Contact
+For any questions, reach out at [your-email@example.com](mailto:seel@ntmg.be).
