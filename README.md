@@ -99,7 +99,7 @@ We welcome contributions! Whether it’s adding new modules, improving CI/CD pro
 Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) to maintain a welcoming and inclusive environment.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](./License) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENCE) file for more details.
 
 ## Contact
 For any questions, reach out at [your-email@example.com](mailto:seel@ntmg.be).
